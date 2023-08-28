@@ -14,7 +14,7 @@ $sMetadataVersion = '2.1';
  * Module information
  */
 $aModule = [
-    'id'          => 'ea_eyeable',
+    'id'          => 'EyeAble_EyeAbleAssist',
     'title'       => 'Eye-Able Assist',
     'description' =>  'This is the Eye-Able® Assist Module. It helps to improve the accesibility of your shop or website. Eye-Able® Assist allows customers to customize the website to their individual needs.',
     'thumbnail'   => 'out/pictures/eye-able_logo_schwarz.png.png',
