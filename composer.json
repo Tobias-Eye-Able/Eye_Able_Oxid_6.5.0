@@ -12,7 +12,7 @@
     ],
     "extra": {
         "oxideshop": {
-            "target-directory": "ea/eyeable",
+            "target-directory": "EyeAble/EyeAbleAssist",
             "blacklist-filter": [
                 "source/**/*",
                 "vendor/**/*"
