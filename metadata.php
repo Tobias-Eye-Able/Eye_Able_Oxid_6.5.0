@@ -14,23 +14,21 @@ $sMetadataVersion = '2.1';
  * Module information
  */
 $aModule = [
-    'id'          => 'EyeAble_EyeAbleAssist',
-    'title'       => 'Eye-Able Assist',
+    'id'          => 'eyeable_assist',
+    'title'       => 'Eye-Able® Assist',
     'description' =>  'This is the Eye-Able® Assist Module. It helps to improve the accesibility of your shop or website. Eye-Able® Assist allows customers to customize the website to their individual needs.',
-    'thumbnail'   => 'out/pictures/eye-able_logo_schwarz.png.png',
+    'thumbnail'   => 'out/pictures/logo.png',
     'version'     => '1.0.0',
     'author'      => 'Webinclusion GmbH',
     'url'         => 'https://eye-able.com/',
     'email'       => 'info@eye-able.com',
-    'extend'      => [
-        'blocks'      => [
-            [
-                //It is possible to replace blocks by theme, to do so add 'theme' => '<theme_name>' key/value in here
-                'template' => 'layout/base.tpl',
-                'block' => 'base_js',
-                'file' => 'views/blocks/base.tpl'
-            ]
-        ],
+    'extend'      => [],
+    'blocks'      => [
+        [
+            //It is possible to replace blocks by theme, to do so add 'theme' => '<theme_name>' key/value in here
+            'template' => 'layout/base.tpl',
+            'block' => 'base_js',
+            'file' => 'views/blocks/base.tpl'
+        ]
     ],
-    
 ];
